@@ -1,0 +1,132 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.el1 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    transform: translate(35px, 35px);
+    border-radius: 500px 100px 100px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+
+.el1:hover {
+    scale: 1.1;
+    background-color: rgb(228, 20, 124);
+}
+
+.el1:hover .inst {
+    color: white;
+}
+
+.inst {
+    font-size: 70px;
+    padding-top: 30px;
+    padding-left: 20px;
+    color: rgb(228, 20, 124);
+}
+
+.el2 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    transform: translate(265px, 35px);
+    border-radius: 100px 500px 100px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+
+.el2:hover {
+    scale: 1.1;
+    background-color: rgb(38, 174, 228);
+}
+
+.el2:hover .tg {
+    color: white;
+}
+
+.tg {
+    font-size: 70px;
+    padding-top: 30px;
+    padding-right: 20px;
+    color: rgb(38, 174, 228);
+}
+
+.el3 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    transform: translate(35px, 265px);
+    border-radius: 100px 100px 100px 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+
+.el3:hover {
+    scale: 1.1;
+    background-color: rgb(75, 75, 75);
+}
+
+.el3:hover .git {
+    color: white;
+}
+
+.git {
+    font-size: 70px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    color: rgb(75, 73, 73);
+}
+
+.el4 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    transform: translate(265px, 265px);
+    border-radius: 100px 100px 500px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+
+.el4:hover {
+    scale: 1.1;
+    background-color: rgb(96, 151, 210);
+}
+
+.el4:hover .ds {
+    color: white;
+}
+
+.ds {
+    font-size: 70px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    color: rgb(96, 151, 210);
+}
