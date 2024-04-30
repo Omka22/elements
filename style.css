@@ -16,7 +16,8 @@ body {
     height: 200px;
     background-color: white;
     position: absolute;
-    transform: translate(35px, 35px);
+    margin-left: 35px;
+    margin-top: 35px;
     border-radius: 500px 100px 100px 100px;
     display: flex;
     justify-content: center;
@@ -26,7 +27,7 @@ body {
 }
 
 .el1:hover {
-    scale: 1.1;
+    scale: 1.150;
     background-color: rgb(228, 20, 124);
 }
 
@@ -46,7 +47,8 @@ body {
     height: 200px;
     background-color: white;
     position: absolute;
-    transform: translate(265px, 35px);
+    margin-left: 265px;
+    margin-top: 35px;
     border-radius: 100px 500px 100px 100px;
     display: flex;
     justify-content: center;
@@ -56,7 +58,7 @@ body {
 }
 
 .el2:hover {
-    scale: 1.1;
+    scale: 1.150;
     background-color: rgb(38, 174, 228);
 }
 
@@ -76,7 +78,8 @@ body {
     height: 200px;
     background-color: white;
     position: absolute;
-    transform: translate(35px, 265px);
+    margin-left: 35px;
+    margin-top: 265px;
     border-radius: 100px 100px 100px 500px;
     display: flex;
     justify-content: center;
@@ -86,8 +89,8 @@ body {
 }
 
 .el3:hover {
-    scale: 1.1;
-    background-color: rgb(75, 75, 75);
+    scale: 1.150;
+    background-color: rgb(42, 41, 41);
 }
 
 .el3:hover .git {
@@ -98,7 +101,7 @@ body {
     font-size: 70px;
     padding-bottom: 30px;
     padding-left: 20px;
-    color: rgb(75, 73, 73);
+    color: rgb(42, 42, 42);
 }
 
 .el4 {
@@ -106,7 +109,8 @@ body {
     height: 200px;
     background-color: white;
     position: absolute;
-    transform: translate(265px, 265px);
+    margin-left: 265px;
+    margin-top: 265px;
     border-radius: 100px 100px 500px 100px;
     display: flex;
     justify-content: center;
@@ -116,7 +120,7 @@ body {
 }
 
 .el4:hover {
-    scale: 1.1;
+    scale: 1.150;
     background-color: rgb(96, 151, 210);
 }
 
